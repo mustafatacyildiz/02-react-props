@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Person from "./Person";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Person 
+      name="Ahmet Can" 
+      img="https://cdn.pixabay.com/photo/2022/02/11/05/54/food-7006591__340.jpg" tel="05555555555" />
+
+    <Person 
+      name="hacı Baki" 
+      img="https://cdn.pixabay.com/photo/2022/02/11/05/54/food-7006591__340.jpg" tel="05555555555" />
+    
+  <Person 
+      name="Canan Can" 
+      img="https://cdn.pixabay.com/photo/2022/02/11/05/54/food-7006591__340.jpg" tel="05555555555" />
     </div>
   );
 }
